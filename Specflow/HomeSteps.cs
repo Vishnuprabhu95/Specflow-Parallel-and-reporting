@@ -22,7 +22,7 @@ namespace Test
         [Given(@"the user hits amazon home page")]
         public void GivenTheUserHitsAmazonHomePage()
         {
-            driver = new ChromeDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)); 
+            driver = new ChromeDriver(); 
             driver.Navigate().GoToUrl("https://www.amazon.in/");
         }
 

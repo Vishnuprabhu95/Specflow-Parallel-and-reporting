@@ -1,7 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TestProfile xmlns="http://www.specflow.org/schemas/plus/TestProfile/1.5">
-  <Settings projectName="Specflow111" />
+  <Settings projectName="Specflow" />
   <Execution stopAfterFailures="0" testThreadCount="3" testSchedulingMode="Sequential" retryFor="None"/>
+  <!--<Report copyAlsoToBaseFolder="true" >
+    <Template name="templates\ReportTemplate_Xml.cshtml" outputName="fff.xml"/>
+    <Template name="templates\ReportTemplate.cshtml" outputName="ffft.html"/>
+  </Report>-->
   <Environment testThreadIsolation="SharedAppDomain"/>
   <!-- For collecting by a SpecRun server update and enable the following element. For using the 
       collected statistics, set testSchedulingMode="Adaptive" attribute on the <Execution> element.
